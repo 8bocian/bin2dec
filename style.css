@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+  transition: transform 1.1s;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  transform: scale(0.5);
+}
+
+#container {
+  width: 100%;
+  text-align: center;
+}
+
+.bit {
+  display: inline-block;
+  margin: 1.5%;
+  padding: 2%;
+  background-color: antiquewhite;
+  border-radius: 20px;
+}
+
+.bit{
+  cursor: pointer;
+}
